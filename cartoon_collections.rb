@@ -1,8 +1,8 @@
 require 'pry'
 def roll_call_dwarves(dwarves_names)
   hello_dwarves = []
-  dwarves_names.each_with_index {|names| hello_dwarves << names}
-  puts names
+  dwarves_names.each_with_index {|names| puts names }
+end
 end
 
 def summon_captain_planet# code an argument here
