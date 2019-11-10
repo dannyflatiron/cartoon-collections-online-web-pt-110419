@@ -8,12 +8,13 @@ end
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |elements|
     elements.capitalize + "!"
+    # ^string concatentation
     # binding.pry
   end
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)
+  
 end
 
 def find_the_cheese# code an argument here
