@@ -7,7 +7,7 @@ end
 
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map { |elements| elements.join('?').capitalize.split }
+  planeteer_calls.map { |elements| elements.join('?') }
 end
 
 def long_planeteer_calls# code an argument here
