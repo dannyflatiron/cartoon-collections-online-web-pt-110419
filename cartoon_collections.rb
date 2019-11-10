@@ -6,7 +6,7 @@ end
 
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.join('?')
+  planeteer_calls.join(' ?')
   binding.pry
   # planeteer_calls.map { |elements| elements.join('?') }
 end
