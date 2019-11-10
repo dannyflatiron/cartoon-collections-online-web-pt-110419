@@ -2,8 +2,6 @@ require 'pry'
 def roll_call_dwarves(dwarves_names)
   hello_dwarves = []
   dwarves_names.each_with_index {|names, index| puts names }
-
-end
 end
 
 
