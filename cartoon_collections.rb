@@ -29,7 +29,8 @@ def find_the_cheese(snacks)
   cheeses = ["cheddar", "gouda", "camembert"]
 
   if snacks.include?(cheeses)
-    return "queso"
+    print "queso"
+  else
   end
 
 end
