@@ -38,5 +38,6 @@ def find_the_cheese(snacks)
   cheeses.each do |elements|
     return elements if snacks.include?(elements)
   end
+  nil
     # binding.pry
   end
