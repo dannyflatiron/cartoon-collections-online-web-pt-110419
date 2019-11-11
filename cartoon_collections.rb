@@ -37,12 +37,12 @@ end
 
 # WHICH ONE IS MORE DYNAMIC AND APPROPRIATE FOR REAL WORLD USE
 
-# def find_the_cheese(snacks)
-#   cheeses = ["cheddar", "gouda", "camembert"]
-#   cheeses.each do |elements|
-#     return elements if snacks.include?(elements)
-#   end
-#   nil
-#     # binding.pry
-#   end
+def find_the_cheese(snacks)
+  cheeses = ["cheddar", "gouda", "camembert"]
+  cheeses.each do |elements|
+    return elements if snacks.include?(elements)
+  end
+  nil
+    # binding.pry
+  end
 # ^this works
