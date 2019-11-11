@@ -18,12 +18,18 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(snacks)
-  # if snacks.include?('cheddar' || 'gouda' || 'camembert')
-  if snacks.include?('cheddar')
-    return "cheddar"
-    # binding.pry
-  else
-    nil
+  # if snacks.include?('cheddar')
+  #   return "cheddar"
+  #   # binding.pry
+  # else
+  #   nil
+  # end
+  # ^this is not dynamic enough to meet the conditions
+
+  cheeses = ["cheddar", "gouda", "camembert"]
+
+  if snacks include(cheeses)
+    return "queso"
   end
 
 end
