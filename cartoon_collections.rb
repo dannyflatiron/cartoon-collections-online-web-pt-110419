@@ -19,8 +19,8 @@ end
 
 def find_the_cheese(snacks)
   # if snacks.include?('cheddar' || 'gouda' || 'camembert')
-  if snacks.include?('cheddar' || 'gouda' || 'camembert')
-    puts "cheddar"
+  if snacks.include?('cheddar')
+    return "cheddar"
     # binding.pry
   
   end
