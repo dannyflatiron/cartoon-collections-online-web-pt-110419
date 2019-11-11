@@ -22,8 +22,7 @@ def find_the_cheese(snacks)
   if snacks.include?('cheddar' || 'gouda' || 'camembert')
     puts "cheddar"
     # binding.pry
-  else
-    nil
+  
   end
 
 end
