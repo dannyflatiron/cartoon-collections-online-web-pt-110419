@@ -31,5 +31,5 @@ def find_the_cheese(snacks)
     return elements if snacks.include?('elements')
   end
     # binding.pry
-  
+  end
 end
