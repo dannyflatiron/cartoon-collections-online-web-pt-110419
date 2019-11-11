@@ -31,4 +31,3 @@ def find_the_cheese(snacks)
     binding.pry
   end
 end
-
