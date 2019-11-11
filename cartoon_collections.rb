@@ -23,6 +23,7 @@ def find_the_cheese(snacks)
     puts "cheddar"
   else
     nil
+    binding.pry
   end
 
 end
