@@ -25,10 +25,18 @@ end
   #   nil
   # end
   # ^this is not dynamic enough to meet the conditions
-  def find_the_cheese(snacks)
-  cheeses = ["cheddar", "gouda", "camembert"]
-  snacks.find do |cheese|
-    cheese == "cheddar" || cheese == "gouda" || cheese == "gouda"
-  end
-end
+#   def find_the_cheese(snacks)
+#   cheeses = ["cheddar", "gouda", "camembert"]
+#   snacks.find do |cheese|
+#     cheese == "cheddar" || cheese == "gouda" || cheese == "gouda"
+#   end
 # end
+
+
+def find_the_cheese(snacks)
+  cheeses = ["cheddar", "gouda", "camembert"]
+  cheeses.each do |elements|
+    return elements if snacks.include?(elements)
+  end
+    # binding.pry
+  end
