@@ -28,7 +28,7 @@ end
   def find_the_cheese(snacks)
   cheeses = ["cheddar", "gouda", "camembert"]
   snacks.find do |cheese|
-    cheese == "cheedar" || cheese == "gouda" || cheese == "gouda"
+    cheese == "cheddar" || cheese == "gouda" || cheese == "gouda"
   end
 end
 # end
