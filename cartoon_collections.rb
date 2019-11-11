@@ -17,7 +17,7 @@ def long_planeteer_calls(calls)
   calls.any? { |elements| elements.length > 4 }
 end
 
-def find_the_cheese(snacks)
+# def find_the_cheese(snacks)
   # if snacks.include?('cheddar')
   #   return "cheddar"
   #   # binding.pry
@@ -32,4 +32,4 @@ def find_the_cheese(snacks)
   end
     # binding.pry
   end
-end
+# end
