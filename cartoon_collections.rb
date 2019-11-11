@@ -31,6 +31,7 @@ def find_the_cheese(snacks)
   if snacks.include?(cheeses)
     print "queso"
   else
+    nil
   end
 
 end
