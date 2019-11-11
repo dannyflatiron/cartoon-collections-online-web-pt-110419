@@ -27,11 +27,6 @@ def find_the_cheese(snacks)
   # ^this is not dynamic enough to meet the conditions
 
   cheeses = ["cheddar", "gouda", "camembert"]
-
-  if snacks.include?(cheeses)
-    print "cheddar"
-  else
-    nil
-  end
-
+  if cheeses.each {|elements| return elements}
+    binding.pry
 end
