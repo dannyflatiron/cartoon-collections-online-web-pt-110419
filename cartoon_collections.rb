@@ -28,6 +28,8 @@ def find_the_cheese(snacks)
 
   cheeses = ["cheddar", "gouda", "camembert"]
   if cheeses.each {|elements| return elements}
-    binding.pry
+  else
+    nil
+    # binding.pry
   end
 end
